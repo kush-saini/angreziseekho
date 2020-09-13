@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html translate="no" lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>मुलाकात Meeting</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styling.css">
+    <link rel="stylesheet" type="text/css" href="grid.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/flick/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <style>
+/*
+        #example
+                {
+                    position: relative;
+                    top:40px;
+                }
+*/
+    </style>
+</head>
+
+<body >     <!--    <a href="index.html"><img src="cooltext359523612624032.png" width="500" class="responsive"/></a>-->     
+    <div class="topnav" id="myTopnav">   <a href="index.html" >AngreziSeekho</a>   <a href="englishbasics.html">अंग्रेज़ी की नींव</a>   <a href="namesofthings.html">चीज़ो के नाम</a>   <a href="conversation.html">अंग्रेज़ी में बातचीत</a>            </div>
+        <p class="paath"><br />मुलाकात<br /><br />Meeting  मीटिंग <br /><br /></p>
+    <a href="greetings.html"><button id="nextpagebutton" title="अगले पेज पर जाने के लिए">अगला पेज 
+    </button></a>
+    <a href="lesson28.html"><button id="prevpagebutton" title="पिछले पेज पर जाने के लिए">पिछला पेज 
+    </button></a>    
+    <p align="center" class="lessontext">
+        जब आप किसी से पहली बार मिलते हैं  तब बोला जाता हैं  -<br /><br /><br />
+        नमस्ते &nbsp;&nbsp; - &nbsp;&nbsp;Hello ( हैलो )<br /><br />
+        नमस्ते &nbsp;&nbsp; - &nbsp;&nbsp;Hi ( हाय )<br /><br />
+        जब वह इंसान आपसे उम्र में बड़े हो तब बोला जाता हैं  - <br /><br /><br />
+        नमस्ते महाशय &nbsp;&nbsp; - &nbsp;&nbsp;Hello sir( हैलो सर )<br /><br />
+        नमस्ते मोहतर्मा &nbsp;&nbsp; - &nbsp;&nbsp;Hello mam ( हैलो मैम )<br /><br /><br /><br />
+         अनजान व्यक्ति से पहली बार हाथ मिलाते हुए बोला जाता हैं -<br /><br /><br /><br />
+        आपसे मिलके बहुत ख़ुशी हुई &nbsp;&nbsp; - &nbsp;&nbsp;Nice to meet you  ( नाइस  टू मीट यू )<br /><br />
+        आपसे मिलके बहुत ख़ुशी हुई &nbsp;&nbsp; - &nbsp;&nbsp;Glad to meet you ( ग्लैड टू मीट यू )<br /><br />
+        आपसे मिलके बहुत ख़ुशी हुई &nbsp;&nbsp; - &nbsp;&nbsp;Pleased to meet you ( प्लीज़्ड टू मीट यू )<br /><br /><br /><br />
+        जान पहचान वाले व्यक्ति से मिलते वक्त बोला जाता हैं -<br /><br /><br /><br />
+        क्या हाल हैं &nbsp;&nbsp; - &nbsp;&nbsp;How are you ( हाओ आर यू )<br /><br />
+        आजकल क्या चल रहा हैं &nbsp;&nbsp; - &nbsp;&nbsp;Whats up ( वॉट्स अप )<br /><br />
+        और सब ठीक हैं  &nbsp;&nbsp; - &nbsp;&nbsp;How is everything( हाओ इज़ ऐवरीथिंग )<br /><br /><br /><br />
+        किसी से बहुत दिन बाद मिलने पर बोला जाता हैं -<br /><br /><br />
+        बड़े दिनों बाद दिखे आप &nbsp;&nbsp; - &nbsp;&nbsp;Long time no see( लॉन्ग टाइम नो सी)<br /><br /><br /><br />
+        किसी से विदा लेते समय बोला जाता हैं -<br /><br /><br /><br />
+        चलिए कल मिलते हैं &nbsp;&nbsp; - &nbsp;&nbsp;See you tomorrow( सी यू टुमॉरो )<br /><br />
+        चलिए जल्दी मिलते हैं &nbsp;&nbsp; - &nbsp;&nbsp;See you soon ( सी यू सून )<br /><br />
+        अलविदा &nbsp;&nbsp; - &nbsp;&nbsp;Goodbye / Bye  ( गुडबाय / बाय )<br /><br />
+        अच्छा ठीक हैं फिर &nbsp;&nbsp; - &nbsp;&nbsp;Okay Goodbye ( ओके गुडबाय )<br /><br /><br /><br />
+        कृपया इस बात का ध्यान दें  रात के समय  विदा लेते समय <br />
+        गुडबाय की जगह गुडनाइट बोला जाता हैं -<br /><br /><br /><br />
+        अलविदा &nbsp;&nbsp; - &nbsp;&nbsp;Goodnight  ( गुडनाइट )<br /><br />
+        अच्छा ठीक हैं फिर &nbsp;&nbsp; - &nbsp;&nbsp;Okay Goodnight ( ओके गुडनाइट )<br /><br /><br /><br /><br />
+        <button id="topbtn" onclick="topFunction()"><img src="arrow-up-outline.svg" height="30" width="30" id="gotop"/></button>
+        <br /><br /><br /><br />
+        
+    </p> 
+	<script>var nbutton = document.getElementById("nextpagebutton");
+        var pbutton = document.getElementById("prevpagebutton");
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      nbutton.style.display = "none";
+      pbutton.style.display = "none";
+  } else {
+      nbutton.style.display = "inline-block";
+      pbutton.style.display = "inline-block";
+  }
+}      
+    function topFunction() {   document.body.scrollTop = 0;   document.documentElement.scrollTop = 0; }     </script>
+</body>
+
+</html>

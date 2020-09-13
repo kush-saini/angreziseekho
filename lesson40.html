@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html translate="no" lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>विनती करना Request</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styling.css">
+    <link rel="stylesheet" type="text/css" href="grid.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/flick/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <style>
+/*
+        #example
+                {
+                    position: relative;
+                    top:40px;
+                }
+*/
+    </style>
+</head>
+
+<body >     <!--    <a href="index.html"><img src="cooltext359523612624032.png" width="500" class="responsive"/></a>-->     
+    <div class="topnav" id="myTopnav">   <a href="index.html" >AngreziSeekho</a>   <a href="englishbasics.html">अंग्रेज़ी की नींव</a>   <a href="namesofthings.html">चीज़ो के नाम</a>   <a href="conversation.html">अंग्रेज़ी में बातचीत</a>            </div>
+        <p class="paath"><br />विनती करना<br /><br />Request रिक़्वैस्ट<br /><br /></p>
+    <a href="lesson41.html"><button id="nextpagebutton" title="अगले पेज पर जाने के लिए">अगला पेज 
+    </button></a>
+    <a href="lesson39.html"><button id="prevpagebutton" title="पिछले पेज पर जाने के लिए">पिछला पेज 
+    </button></a>    
+    <p align="center" class="lessontext">
+        क्या मैं अंदर आ जाऊ &nbsp;&nbsp; - &nbsp;&nbsp;May I come in( में आई कम इन )<br /><br /><br />
+        क्या मैं बाहर चला जाऊ  &nbsp;&nbsp; - &nbsp;&nbsp;Can I go outside( कैन आई गो आउटसाइड )<br /><br /><br />
+        कृपया मेरी बात सुनो &nbsp;&nbsp; - &nbsp;&nbsp;Please listen to me( प्लीज़ लिसेन टु मि )<br /><br /><br />
+        कृपया शांत रहिये &nbsp;&nbsp; - &nbsp;&nbsp;Please keep quiet( प्लीज़ कीप क़्वाइट )<br /><br /><br />
+        कृपया मुझे थोड़ा पानी दीजिये &nbsp;&nbsp; - &nbsp;&nbsp;Please give me some water( प्लीज़ गिव मि सम वॉटर )<br /><br /><br />
+        क्या मुझे खाना मिलेगा &nbsp;&nbsp; - &nbsp;&nbsp;Can I get some food( कैन आई गैट सम फ़ूड )<br /><br /><br />
+        क्या मैं जयपुर जाऊ &nbsp;&nbsp; - &nbsp;&nbsp;Can I go to Jaipur( कैन आई गो टु जयपुर )<br /><br /><br />
+        <br /><br />
+        <button id="topbtn" onclick="topFunction()"><img src="arrow-up-outline.svg" height="30" width="30" id="gotop"/></button>
+        <br /><br />
+        
+        <br /><br />
+    </p> 
+	<script>
+        var nbutton = document.getElementById("nextpagebutton");
+        var pbutton = document.getElementById("prevpagebutton");
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      nbutton.style.display = "none";
+      pbutton.style.display = "none";
+  } else {
+      nbutton.style.display = "inline-block";
+      pbutton.style.display = "inline-block";
+  }
+}
+        function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+    </script>
+</body>
+
+</html>

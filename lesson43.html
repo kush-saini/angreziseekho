@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html translate="no" lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>सिनेमा Cinema</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styling.css">
+    <link rel="stylesheet" type="text/css" href="grid.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/flick/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <style>
+/*
+        #example
+                {
+                    position: relative;
+                    top:40px;
+                }
+*/
+    </style>
+</head>
+
+<body >     <!--    <a href="index.html"><img src="cooltext359523612624032.png" width="500" class="responsive"/></a>-->     
+    <div class="topnav" id="myTopnav">   <a href="index.html" >AngreziSeekho</a>   <a href="englishbasics.html">अंग्रेज़ी की नींव</a>   <a href="namesofthings.html">चीज़ो के नाम</a>   <a href="conversation.html">अंग्रेज़ी में बातचीत</a>            </div>
+        <p class="paath"><br />सिनेमा<br /><br />Movies मूवीज़<br /><br /></p>
+    <a href="lesson44.html"><button id="nextpagebutton" title="अगले पेज पर जाने के लिए">अगला पेज 
+    </button></a>
+    <a href="lesson42.html"><button id="prevpagebutton" title="पिछले पेज पर जाने के लिए">पिछला पेज 
+    </button></a>    
+    <p align="center" class="lessontext">
+        पिक्चर &nbsp;&nbsp; - &nbsp;&nbsp;Movie( मूवी )<br /><br /><br />
+        चलो मूवी देखने चलते हैं &nbsp;&nbsp; - &nbsp;&nbsp;Lets watch a movie( लैट्स वॉच अ मूवी )<br /><br /><br />
+        कौनसी मूवी देखें &nbsp;&nbsp; - &nbsp;&nbsp;Which movie should we watch( विच मूवी शुड वि वॉच )<br /><br /><br />
+        पिक्चर कितनी लम्बी हैं &nbsp;&nbsp; - &nbsp;&nbsp;What is the movie duration( वॉट इज़ दी मूवी ड्यूरेशन )<br /><br /><br />
+        कोई बढ़िया पिक्चर बताओ &nbsp;&nbsp; - &nbsp;&nbsp;Suggest a good movie( सजैस्ट अ  गुड मूवी )<br /><br /><br />
+        कौनसी पिक्चरे लगी हैं &nbsp;&nbsp; - &nbsp;&nbsp;Which movies are showing( विच मूवीज़ आर शोइंग )<br /><br /><br />
+        ऋतिक की पिक्चर देखते हैं &nbsp;&nbsp; - &nbsp;&nbsp;Lets watch a Hrithik movie( लैट्स वॉच अ ऋतिक मूवी )<br /><br /><br />
+        पिक्चर में शाहरुख़ और काजोल हैं &nbsp;&nbsp; - &nbsp;&nbsp;The movie stars shahrukh and Kajol<br />( दा मूवी स्टार्स शाहरुख़ ऐंड काजोल )<br /><br /><br />
+        पिक्चर चालू होने वाली हैं &nbsp;&nbsp; - &nbsp;&nbsp;Movie is going to start( मूवी इज़ गोइंग टु स्टार्ट )<br /><br /><br />
+        बहुत मज़ा आने वाला हैं &nbsp;&nbsp; - &nbsp;&nbsp;I am so excited( आई ऐम सो एक्ससाइटेड )<br /><br /><br />
+        इस पिक्चर का इंतज़ार था &nbsp;&nbsp; - &nbsp;&nbsp;I was waiting for this movie( आई वॉज़ वेटिंग फॉर दिस मूवी )<br /><br /><br />
+        कल &nbsp;&nbsp; - &nbsp;&nbsp;Tomorrow( टूमॉरो )<br /><br /><br />
+        आज &nbsp;&nbsp; - &nbsp;&nbsp;Today( टुडे )<br /><br /><br />
+        पिक्चर आज आने वाली हैं &nbsp;&nbsp; - &nbsp;&nbsp;Movie is releasing today( मूवी इज़ रिलीज़िंग टुडे )<br /><br /><br />
+        मस्त पिक्चर थी &nbsp;&nbsp; - &nbsp;&nbsp;Great movie( ग्रेट मूवी )<br /><br /><br />
+        बेकार मूवी थी &nbsp;&nbsp; - &nbsp;&nbsp;Bad movie( बैड मूवी )<br /><br /><br />
+        हँसी - मज़ाक &nbsp;&nbsp; - &nbsp;&nbsp;Comedy( कौमेडी )<br /><br /><br />
+        मार-धाड़ &nbsp;&nbsp; - &nbsp;&nbsp;Action( ऐक्शन )<br /><br /><br />
+        प्यार-मोहब्बत &nbsp;&nbsp; - &nbsp;&nbsp;Romance( रोमैंस )<br /><br /><br />
+        पिक्चर पैसा वसूल थी &nbsp;&nbsp; - &nbsp;&nbsp;Movie was value for money( मूवी वॉज़ वैल्यू फॉर मनी )<br /><br /><br />
+        <br /><br />
+        <button id="topbtn" onclick="topFunction()"><img src="arrow-up-outline.svg" height="30" width="30" id="gotop"/></button>
+        <br /><br />
+        
+        <br /><br />
+    </p> 
+	<script>
+        var nbutton = document.getElementById("nextpagebutton");
+        var pbutton = document.getElementById("prevpagebutton");
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      nbutton.style.display = "none";
+      pbutton.style.display = "none";
+  } else {
+      nbutton.style.display = "inline-block";
+      pbutton.style.display = "inline-block";
+  }
+}
+        function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html translate="no" lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>व्यक्तित्व Personality</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styling.css">
+    <link rel="stylesheet" type="text/css" href="grid.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/flick/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <style>
+/*
+        #example
+                {
+                    position: relative;
+                    top:40px;
+                }
+*/
+    </style>
+</head>
+
+<body >     <!--    <a href="index.html"><img src="cooltext359523612624032.png" width="500" class="responsive"/></a>-->     
+    <div class="topnav" id="myTopnav">   <a href="index.html" >AngreziSeekho</a>   <a href="englishbasics.html">अंग्रेज़ी की नींव</a>   <a href="namesofthings.html">चीज़ो के नाम</a>   <a href="conversation.html">अंग्रेज़ी में बातचीत</a>            </div>
+        <p class="paath"><br />व्यक्तित्व<br /><br />Personality पर्सनैलिटी<br /><br /></p>
+    <a href="lesson52.html"><button id="nextpagebutton" title="अगले पेज पर जाने के लिए">अगला पेज 
+    </button></a>
+    <a href="lesson50.html"><button id="prevpagebutton" title="पिछले पेज पर जाने के लिए">पिछला पेज 
+    </button></a>    
+    <p align="center" class="lessontext">
+        बुरा इंसान &nbsp;&nbsp; - &nbsp;&nbsp;Bad person( बैड पर्सन )<br /><br /><br />
+        अच्छा इंसान &nbsp;&nbsp; - &nbsp;&nbsp;Good person( गुड़ पर्सन )<br /><br /><br />
+        वह अच्छा इंसान हैं &nbsp;&nbsp; - &nbsp;&nbsp;He is a good person( ही इज़ अ गुड पर्सन )<br /><br /><br />
+        वह बुरी इंसान हैं &nbsp;&nbsp; - &nbsp;&nbsp;She is a good person( शी इज़ अ बैड पर्सन )<br /><br /><br />
+        खुश  &nbsp;&nbsp; - &nbsp;&nbsp;Happy( हैप्पी )<br /><br /><br />
+        ख़ुशी  &nbsp;&nbsp; - &nbsp;&nbsp;Happiness( हैप्पीनैस )<br /><br /><br />
+        वह हमेशा खुश रहता हैं &nbsp;&nbsp; - &nbsp;&nbsp;He is always happy( ही इज़ ऑल्वेज़ हैप्पी )<br /><br /><br />
+        शर्मिला &nbsp;&nbsp; - &nbsp;&nbsp;Shy( शाए )<br /><br /><br />
+        वह शर्मिला हैं &nbsp;&nbsp; - &nbsp;&nbsp;He is shy( ही इज़ शाए )<br /><br /><br />
+        सामाजिक &nbsp;&nbsp; - &nbsp;&nbsp;Social( सोश्यल )<br /><br /><br />
+        इंसान सामाजिक प्राणी हैं &nbsp;&nbsp; - &nbsp;&nbsp;Human is a social being( ह्यूमन इज़ अ सोश्यल बीईंग )<br /><br /><br />
+        घुल-मिल के रहना वाला &nbsp;&nbsp; - &nbsp;&nbsp;Extrovert( एक्सट्रोवर्ट )<br /><br /><br />
+        अकेले-अकेले रहने वाला &nbsp;&nbsp; - &nbsp;&nbsp;Introvert( इंट्रोवर्ट )<br /><br /><br />
+        तेज़ दिमाग वाला &nbsp;&nbsp; - &nbsp;&nbsp;Sharp-minded( शार्प-माइन्डिड )<br /><br /><br />
+        बुद्धिमान &nbsp;&nbsp; - &nbsp;&nbsp;Intelligent( इंटैलिजैंट )<br /><br /><br />
+        उसका दिमाग तेज़ हैं &nbsp;&nbsp; - &nbsp;&nbsp;He is intelligent( ही इज़ शार्प-माइन्डिड )<br /><br /><br />
+        चालाक &nbsp;&nbsp; - &nbsp;&nbsp;Cunning( कंनिंग )<br /><br /><br />
+        विनम्र &nbsp;&nbsp; - &nbsp;&nbsp;Polite( पोलाइट )<br /><br /><br />
+        वह विनम्र हैं &nbsp;&nbsp; - &nbsp;&nbsp;He is polite( ही इज़ पोलाइट )<br /><br /><br />
+        बद्तमीज़ &nbsp;&nbsp; - &nbsp;&nbsp;Rude( रूड )<br /><br /><br />
+        मज़ाकिया &nbsp;&nbsp; - &nbsp;&nbsp;Funny( फनी )<br /><br /><br />
+        <br /><br />
+        <button id="topbtn" onclick="topFunction()"><img src="arrow-up-outline.svg" height="30" width="30" id="gotop"/></button>
+        <br /><br />
+        
+        <br /><br />
+    </p> 
+    
+	<script>
+        var nbutton = document.getElementById("nextpagebutton");
+        var pbutton = document.getElementById("prevpagebutton");
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      nbutton.style.display = "none";
+      pbutton.style.display = "none";
+  } else {
+      nbutton.style.display = "inline-block";
+      pbutton.style.display = "inline-block";
+  }
+}
+        function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+    </script>
+</body>
+
+</html>

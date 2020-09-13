@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html translate="no" lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>बीता हुआ समय Past</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styling.css">
+    <link rel="stylesheet" type="text/css" href="grid.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/flick/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <style>
+/*
+        #example
+                {
+                    position: relative;
+                    top:40px;
+                }
+*/
+    </style>
+</head>
+
+<body >     <!--    <a href="index.html"><img src="cooltext359523612624032.png" width="500" class="responsive"/></a>-->     
+    <div class="topnav" id="myTopnav">   <a href="index.html" >AngreziSeekho</a>   <a href="englishbasics.html">अंग्रेज़ी की नींव</a>   <a href="namesofthings.html">चीज़ो के नाम</a>   <a href="conversation.html">अंग्रेज़ी में बातचीत</a>            </div>
+        <p class="paath"><br />बीता हुआ समय<br /><br />Past पास्ट<br /><br /></p>
+    <a href="lesson53.html"><button id="nextpagebutton" title="अगले पेज पर जाने के लिए">अगला पेज 
+    </button></a>
+    <a href="lesson51.html"><button id="prevpagebutton" title="पिछले पेज पर जाने के लिए">पिछला पेज 
+    </button></a>    
+    <p align="center" class="lessontext">
+        वो भी क्या दिन थे &nbsp;&nbsp; - &nbsp;&nbsp;Those were the days( डोज़ वर दा डेज़ )<br /><br /><br />
+        ये तब की बात हैं &nbsp;&nbsp; - &nbsp;&nbsp;Back in the past( बैक इन दा पास्ट )<br /><br /><br />
+        सन 1990 में &nbsp;&nbsp; - &nbsp;&nbsp;In 1990( इन 1990 )<br /><br /><br />
+        90 के दशक में &nbsp;&nbsp; - &nbsp;&nbsp;In the ninetees( इन दा नाइंटीस )<br /><br /><br />
+        प्राचीन काल में &nbsp;&nbsp; - &nbsp;&nbsp;In ancient times( इन एंशियंट टाइम्स )<br /><br /><br />
+        बहुत समय पहले &nbsp;&nbsp; - &nbsp;&nbsp;A long time ago( अ लॉन्ग टाइम अगो )<br /><br /><br />
+        कुछ समय पहले &nbsp;&nbsp; - &nbsp;&nbsp;A while earlier( अ वाईल अर्लियर )<br /><br /><br />
+        दस साल पहले &nbsp;&nbsp; - &nbsp;&nbsp;10 years ago( 10 इयर्ज़ अगो )<br /><br /><br />
+        क्या तुम्हे याद हैं &nbsp;&nbsp; - &nbsp;&nbsp;Do you remember( डु यु रिमैम्बर )<br /><br /><br />
+        उस दिन &nbsp;&nbsp; - &nbsp;&nbsp;That day( दैट डे )<br /><br /><br />
+        कुछ मिनट पहले &nbsp;&nbsp; - &nbsp;&nbsp;Few minutes ago( फ्यू मिनिट्स अगो )<br /><br /><br />
+        कुछ घंटे पहले &nbsp;&nbsp; - &nbsp;&nbsp;Few hours ago( फ्यू आर्ज़ अगो )<br /><br /><br />
+        कुछ दिन पहले &nbsp;&nbsp; - &nbsp;&nbsp;Few days ago( फ्यू डेज़ अगो )<br /><br /><br />
+        कुछ साल पहले &nbsp;&nbsp; - &nbsp;&nbsp;Few years ago( फ्यू इयर्ज़ अगो )<br /><br /><br />
+        कुछ पल पहले &nbsp;&nbsp; - &nbsp;&nbsp;Few moments ago( फ्यू मोमैन्ट्स अगो )<br /><br /><br />
+        बीता हुआ कल &nbsp;&nbsp; - &nbsp;&nbsp;Yesterday( यैसटरडे )<br /><br /><br />
+        पिछला महीना &nbsp;&nbsp; - &nbsp;&nbsp;Last month( लास्ट मंथ )<br /><br /><br />
+        पिछला साल &nbsp;&nbsp; - &nbsp;&nbsp;Last year( लास्ट ईयर )<br /><br /><br />
+        पिछला दशक &nbsp;&nbsp; - &nbsp;&nbsp;Lst decade( लास्ट डैकेड )<br /><br /><br />
+        कुछ दशक पहले &nbsp;&nbsp; - &nbsp;&nbsp;Few decades( फ्यू डैकेड्ज़ अगो )<br /><br /><br />
+        एक मिनट पहले &nbsp;&nbsp; - &nbsp;&nbsp;A minute ago( अ मिनिट अगो )<br /><br /><br />
+        एक घंटे पहले &nbsp;&nbsp; - &nbsp;&nbsp;An hour ago( ऐन आर अगो )<br /><br /><br />
+        से पहले &nbsp;&nbsp; - &nbsp;&nbsp;before( बिफोर )<br /><br /><br />
+        विभाजन  से पहले &nbsp;&nbsp; - &nbsp;&nbsp;before partition( बिफोर पार्टीशन )<br /><br /><br />
+        <br /><br />
+        <button id="topbtn" onclick="topFunction()"><img src="arrow-up-outline.svg" height="30" width="30" id="gotop"/></button>
+        <br /><br />
+        
+        <br /><br />
+    </p> 
+    
+	<script>
+        var nbutton = document.getElementById("nextpagebutton");
+        var pbutton = document.getElementById("prevpagebutton");
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      nbutton.style.display = "none";
+      pbutton.style.display = "none";
+  } else {
+      nbutton.style.display = "inline-block";
+      pbutton.style.display = "inline-block";
+  }
+}
+        function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html translate="no" lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>दुकान में बातचीत  Conversations at shop</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styling.css">
+    <link rel="stylesheet" type="text/css" href="grid.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/flick/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <style>
+/*
+        #example
+                {
+                    position: relative;
+                    top:40px;
+                }
+*/
+    </style>
+</head>
+
+<body >     <!--    <a href="index.html"><img src="cooltext359523612624032.png" width="500" class="responsive"/></a>-->     
+    <div class="topnav" id="myTopnav">   <a href="index.html" >AngreziSeekho</a>   <a href="englishbasics.html">अंग्रेज़ी की नींव</a>   <a href="namesofthings.html">चीज़ो के नाम</a>   <a href="conversation.html">अंग्रेज़ी में बातचीत</a>            </div>
+        <p class="paath"><br />दुकान में बातचीत <br /><br />Conversation at shop कन्वर्सेशन  ऐट शॉप<br /><br /></p>
+    <a href="lesson38.html"><button id="nextpagebutton" title="अगले पेज पर जाने के लिए">अगला पेज 
+    </button></a>
+    <a href="lesson36.html"><button id="prevpagebutton" title="पिछले पेज पर जाने के लिए">पिछला पेज 
+    </button></a>    
+    <p align="center" class="lessontext">
+        ये कितने का है &nbsp;&nbsp; - &nbsp;&nbsp;How much is this( हाओ मच इज़ दिस )<br /><br /><br />
+        सस्ता &nbsp;&nbsp; - &nbsp;&nbsp;Cheap( चीप )<br /><br /><br />
+        सस्ता माल &nbsp;&nbsp; - &nbsp;&nbsp;Cheap material( चीप मटेरियल )<br /><br /><br />
+        महंगा &nbsp;&nbsp; - &nbsp;&nbsp;Expensive( एक्सपैनसिव )<br /><br /><br />
+        ये महंगा हैं &nbsp;&nbsp; - &nbsp;&nbsp;This is expensive( दिस इज़ एक्सपैनसिव )<br /><br /><br />
+        थोड़ा महंगा &nbsp;&nbsp; - &nbsp;&nbsp;A bit expensive( अ बिट एक्सपैनसिव )<br /><br /><br />
+        ये थोड़ा महंगा हैं &nbsp;&nbsp; - &nbsp;&nbsp;This is a bit expensive( दिस इज़ अ बिट एक्सपैनसिव )<br /><br /><br />
+        बहुत महंगा &nbsp;&nbsp; - &nbsp;&nbsp;Too expensive( टू  एक्सपैनसिव )<br /><br /><br />
+        ये बहुत महंगा हैं &nbsp;&nbsp; - &nbsp;&nbsp;This is too expensive( दिस इज़ टू एक्सपैनसिव )<br /><br /><br />
+        बढ़िया दाम लगाओ &nbsp;&nbsp; - &nbsp;&nbsp;Give me the best rate( गिव मि दा बैस्ट रेट )<br /><br /><br />
+        दाम &nbsp;&nbsp; - &nbsp;&nbsp;Rate( रेट )<br /><br /><br />
+        कितने पैसे का हैं &nbsp;&nbsp; - &nbsp;&nbsp;Price( प्राइस )<br /><br /><br />
+        इसके 500 दूंगा बस &nbsp;&nbsp; - &nbsp;&nbsp;I will give 500 for this( आई विल गिव 500 फॉर दिस )<br /><br /><br />
+        इसे पैक कर दो &nbsp;&nbsp; - &nbsp;&nbsp;Pack this( पैक दिस )<br /><br /><br />
+        ये सब पैक कर दो &nbsp;&nbsp; - &nbsp;&nbsp;Pack these( पैक दीस )<br /><br /><br />
+        एक कुरकुरे का पैकेट &nbsp;&nbsp; - &nbsp;&nbsp;One kurkure packet( वन पैकेट कुरकुरे )<br /><br /><br />
+        एक दर्जन केले &nbsp;&nbsp; - &nbsp;&nbsp;A dozen banana( अ डज़न बनाना )<br /><br /><br />
+        एक किलो आम &nbsp;&nbsp; - &nbsp;&nbsp;One kg mango( वन केजी मैंगो )<br /><br /><br />
+        <br /><br />
+        <button id="topbtn" onclick="topFunction()"><img src="arrow-up-outline.svg" height="30" width="30" id="gotop"/></button>
+        <br /><br />
+        
+        <br /><br />
+    </p> 
+	<script>
+        var nbutton = document.getElementById("nextpagebutton");
+        var pbutton = document.getElementById("prevpagebutton");
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      nbutton.style.display = "none";
+      pbutton.style.display = "none";
+  } else {
+      nbutton.style.display = "inline-block";
+      pbutton.style.display = "inline-block";
+  }
+}
+        function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+    </script>
+</body>
+
+</html>

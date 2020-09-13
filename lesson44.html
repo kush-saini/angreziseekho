@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html translate="no" lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>विद्यालय School</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styling.css">
+    <link rel="stylesheet" type="text/css" href="grid.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/flick/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <style>
+/*
+        #example
+                {
+                    position: relative;
+                    top:40px;
+                }
+*/
+    </style>
+</head>
+
+<body >     <!--    <a href="index.html"><img src="cooltext359523612624032.png" width="500" class="responsive"/></a>-->     
+    <div class="topnav" id="myTopnav">   <a href="index.html" >AngreziSeekho</a>   <a href="englishbasics.html">अंग्रेज़ी की नींव</a>   <a href="namesofthings.html">चीज़ो के नाम</a>   <a href="conversation.html">अंग्रेज़ी में बातचीत</a>            </div>
+        <p class="paath"><br />विद्यालय<br /><br />School स्कूल<br /><br /></p>
+    <a href="lesson45.html"><button id="nextpagebutton" title="अगले पेज पर जाने के लिए">अगला पेज 
+    </button></a>
+    <a href="lesson43.html"><button id="prevpagebutton" title="पिछले पेज पर जाने के लिए">पिछला पेज 
+    </button></a>    
+    <p align="center" class="lessontext">
+        अध्यापक &nbsp;&nbsp; - &nbsp;&nbsp;Sir( सर )<br /><br /><br />
+        अध्यापिका &nbsp;&nbsp; - &nbsp;&nbsp;Mam( मैम )<br /><br /><br />
+        कलम &nbsp;&nbsp; - &nbsp;&nbsp;Pen( पैन )<br /><br /><br />
+        पुस्तक &nbsp;&nbsp; - &nbsp;&nbsp;Book( बुक )<br /><br /><br />
+        कॉपी &nbsp;&nbsp; - &nbsp;&nbsp;Copy( कॉपी )<br /><br /><br />
+        उठ जाओ &nbsp;&nbsp; - &nbsp;&nbsp;Stand up( स्टैंड अप )<br /><br /><br />
+        बैठ जाओ &nbsp;&nbsp; - &nbsp;&nbsp;Sit down( सिट डाउन )<br /><br /><br />
+        मेज &nbsp;&nbsp; - &nbsp;&nbsp;Desk( डैस्क )<br /><br /><br />
+        विषय &nbsp;&nbsp; - &nbsp;&nbsp;Subject( सब्जैक्ट )<br /><br /><br />
+        विज्ञान &nbsp;&nbsp; - &nbsp;&nbsp;Science( साइंस )<br /><br /><br />
+        गणित &nbsp;&nbsp; - &nbsp;&nbsp;Maths( मैथ्स )<br /><br /><br />
+        अंग्रेज़ी &nbsp;&nbsp; - &nbsp;&nbsp;English( इंग्लिश )<br /><br /><br />
+        भौतिक विज्ञान &nbsp;&nbsp; - &nbsp;&nbsp;Physics( फिज़िक्स )<br /><br /><br />
+        जीव विज्ञान &nbsp;&nbsp; - &nbsp;&nbsp;Biology( बायोलॉजी )<br /><br /><br />
+        रसायन विज्ञान  &nbsp;&nbsp; - &nbsp;&nbsp;Chemistry( कैमिस्ट्री )<br /><br /><br />
+        शांत रहिये &nbsp;&nbsp; - &nbsp;&nbsp;Silence( साईलैंस )<br /><br /><br />
+        <br /><br />
+        <button id="topbtn" onclick="topFunction()"><img src="arrow-up-outline.svg" height="30" width="30" id="gotop"/></button>
+        <br /><br />
+        
+        <br /><br />
+    </p> 
+	<script>
+        var nbutton = document.getElementById("nextpagebutton");
+        var pbutton = document.getElementById("prevpagebutton");
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      nbutton.style.display = "none";
+      pbutton.style.display = "none";
+  } else {
+      nbutton.style.display = "inline-block";
+      pbutton.style.display = "inline-block";
+  }
+}
+        function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html translate="no" lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>अनाज  Cereals of India</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styling.css">
+    <link rel="stylesheet" type="text/css" href="grid.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/flick/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <style>
+/*
+        #example
+                {
+                    position: relative;
+                    top:40px;
+                }
+*/
+    </style>
+</head>
+
+<body >     <!--    <a href="index.html"><img src="cooltext359523612624032.png" width="500" class="responsive"/></a>-->    
+    <div class="topnav" id="myTopnav">   <a href="index.html" >AngreziSeekho</a>   <a href="englishbasics.html">अंग्रेज़ी की नींव</a>   <a href="namesofthings.html">चीज़ो के नाम</a>   <a href="conversation.html">अंग्रेज़ी में बातचीत</a>            </div>
+        <p class="paath"><br />अनाज<br /><br />Cereal  सीरियल<br /><br /></p>
+    <a href="lesson27.html"><button id="nextpagebutton" title="अगले पेज पर जाने के लिए">अगला पेज 
+    </button></a>
+    <a href="lesson25.html"><button id="prevpagebutton" title="पिछले पेज पर जाने के लिए">पिछला पेज 
+    </button></a>    
+    <p align="center" class="lessontext">
+        गेहूँ  &nbsp;&nbsp; - &nbsp;&nbsp;Wheat ( वीट )<br /><br /><img src="images/wheat.jpg" height="170px" width="170px" id="example"/><br /><br />
+        जौं  &nbsp;&nbsp; - &nbsp;&nbsp;Barley( बार्ले )<br /><br /><img src="images/barley.jpg" height="170px" width="170px" id="example"/><br /><br />
+        चावल   &nbsp;&nbsp; - &nbsp;&nbsp;Rice ( राइस )<br /><br /><img src="images/rice.jpg" height="170px" width="170px" id="example"/><br /><br />
+        ज्वार  &nbsp;&nbsp; - &nbsp;&nbsp;Sorghum ( सोरघम )<br /><br /><img src="images/jwar.jpg" height="170px" width="170px" id="example"/><br /><br />
+        बाजरा  &nbsp;&nbsp; - &nbsp;&nbsp;Pearl millet ( पर्ल मिलैट )<br /><br /><img src="images/bajra.jpeg" height="170px" width="170px" id="example"/><br /><br />
+        रागी   &nbsp;&nbsp; - &nbsp;&nbsp;Finger millet( फिंगर मिलैट )<br /><br /><img src="images/ragi.jpg" height="170px" width="170px" id="example"/><br /><br />
+        मक्का   &nbsp;&nbsp; - &nbsp;&nbsp;Corn( कॉर्न )<br /><br /><img src="images/corn.png" height="170px" width="170px" id="example"/><br /><br />
+        जई  &nbsp;&nbsp; - &nbsp;&nbsp;Oats( ओट्स )<br /><br /><img src="images/oats.webp" height="170px" width="170px" id="example"/><br /><br /><br /><br /><br />
+        <button id="topbtn" onclick="topFunction()"><img src="arrow-up-outline.svg" height="30" width="30" id="gotop"/></button>
+        <br /><br /><br /><br />
+    </p> 
+	<script>
+        var nbutton = document.getElementById("nextpagebutton");
+        var pbutton = document.getElementById("prevpagebutton");
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      nbutton.style.display = "none";
+      pbutton.style.display = "none";
+  } else {
+      nbutton.style.display = "inline-block";
+      pbutton.style.display = "inline-block";
+  }
+}
+    function topFunction() {   document.body.scrollTop = 0;   document.documentElement.scrollTop = 0; }     </script>
+</body>
+
+</html>

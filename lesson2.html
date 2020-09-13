@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html translate="no" lang="en">
+
+<head>
+	<meta charset="btf-8">
+	<title>फोनेटिक आवाज़ - - learn english phonetic sound</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styling.css">
+    <link rel="stylesheet" type="text/css" href="grid.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/flick/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <style>
+
+/*
+        #bta,#btax,#btb,#btbx,#btc,#btcx,#btd,#btdx,#bte,#btex,#btf,#btfx,#btg,#btgx,#bth,#bthx,#bti,#btix,#btj,#btjx,#btk,#btkx,
+        #btl,#btlx,#btm,#btmx,#btn,#btnx,#bto,#btox,#btp,#btpx,#btq,#btqx,#btr,#btrx,#bts,#btsx,#btt,#bttx,#btb,#btbx,#btv,#btvx,
+        #btw,#btwx,#btx,#btxx,#bty,#btyx,#btz,#btzx
+        {
+            height: 100px;
+            width: 150px;
+            font-size: 30px;
+            border-radibs: 20px;
+            margin-right: 15px;
+            font-weight: normal;
+            text-shadow: 1.3px 1.3px grey;
+            position: relative;
+        }
+*/
+
+    </style>
+</head>
+
+<body >     <!--    <a href="index.html"><img src="cooltext359523612624032.png" width="500" class="responsive"/></a>-->     
+    <div class="topnav" id="myTopnav">   <a href="index.html" >AngreziSeekho</a>   <a href="englishbasics.html">अंग्रेज़ी की नींव</a>   <a href="namesofthings.html">चीज़ो के नाम</a>   <a href="conversation.html">अंग्रेज़ी में बातचीत</a>            </div>
+    <p class="paath"><br />फोनेटिक आवाज़ - Phonetic sound</p>
+    <a href="lesson3.html"><button id="nextpagebutton" title="अगले पेज पर जाने के लिए">अगला पेज 
+    </button></a>
+    <a href="lesson1.html"><button id="prevpagebutton" title="पिछले पेज पर जाने के लिए">पिछला पेज 
+    </button></a>    
+    <p align="center" class="lessontext">
+        पिछले पाठ में हमने सारे लैटर्स को बोलना सीखा था । <br /><br /> इस पाठ में हम हर एक लैटर की  फोनेटिक आवाज़ सीखेंगे।<br /><br /> 
+
+<b>
+फोनेटिक आवाज़े क्या होती है ?<br /><br />
+
+    हर लैटर को किसी शब्द या वाक्य में बोलते वक़्त जो  आवाज़ (ध्वनि ) <br /><br />उत्पन होती है उसे फोनेटिक आवाज़ कहते है। <br /><br /></b>
+        अब हम हर लैटर की फोनेटिक ध्वनि(आवाज़) सीखेंगे। <br /><br /><br />बटन पर क्लिक करके आवाज़ सुने। <br /><br /><br />A (  ए  ) &nbsp;  की ध्वनि होती हैं  &nbsp;<button onclick="playaudio(pa)" type="button" id="bta">आवाज़ सुने </button><button onclick="playaudio(xa)" type="button" id="btax">उदाहरण सुने </button>
+         <br /><br /><br />B (  बी   ) &nbsp;  की ध्वनि होती हैं  &nbsp;<button onclick="playaudio(pb)" type="button" id="btb">आवाज़ सुने </button><button onclick="playaudio(xb)" type="button" id="btbx">उदाहरण सुने </button>
+         <br /><br /><br />C (  सी   ) &nbsp;  की ध्वनि होती हैं  &nbsp;<button onclick="playaudio(pc)" type="button" id="btc">आवाज़ सुने </button><button onclick="playaudio(xc)" type="button" id="btcx">उदाहरण सुने </button>
+         <br /><br /><br />D (  डी   ) &nbsp;  की ध्वनि होती हैं  &nbsp;<button onclick="playaudio(pd)" type="button" id="btd">आवाज़ सुने </button><button onclick="playaudio(xd)" type="button" id="btdx">उदाहरण सुने </button>
+         <br /><br /><br />E (  ई   ) &nbsp;  की ध्वनि होती हैं  &nbsp;<button onclick="playaudio(pe)" type="button" id="bte">आवाज़ सुने </button><button onclick="playaudio(xe)" type="button" id="btex">उदाहरण सुने </button>
+         <br /><br /><br />F (  एफ   ) &nbsp;  की ध्वनि होती हैं  &nbsp;<button onclick="playaudio(pf)" type="button" id="btf">आवाज़ सुने </button><button onclick="playaudio(xf)" type="button" id="btfx">उदाहरण सुने </button>
+         <br /><br /><br />G (  जी   ) &nbsp;  की ध्वनि होती हैं  &nbsp;<button onclick="playaudio(pg)" type="button" id="btg">आवाज़ सुने </button><button onclick="playaudio(xg)" type="button" id="btgx">उदाहरण सुने </button>
+         <br /><br /><br />H (  एच   ) &nbsp;  की ध्वनि होती हैं  &nbsp;<button onclick="playaudio(ph)" type="button" id="bth">आवाज़ सुने </button><button onclick="playaudio(xh)" type="button" id="bthx">उदाहरण सुने </button>
+         <br /><br /><br />I (  आई   ) &nbsp;  की ध्वनि होती हैं  &nbsp;<button onclick="playaudio(pi)" type="button" id="bti">आवाज़ सुने </button><button onclick="playaudio(xi)" type="button" id="btix">उदाहरण सुने </button>
+         <br /><br /><br />J (  जे   ) &nbsp;  की ध्वनि होती हैं  &nbsp;<button onclick="playaudio(pj)" type="button" id="btj">आवाज़ सुने </button><button onclick="playaudio(xj)" type="button" id="btjx">उदाहरण सुने </button>
+         <br /><br /><br />K (  के   ) &nbsp;  की ध्वनि होती हैं  &nbsp;<button onclick="playaudio(pk)" type="button" id="btk">आवाज़ सुने </button><button onclick="playaudio(xk)" type="button" id="btkx">उदाहरण सुने </button>
+         <br /><br /><br />L (  एल   ) &nbsp;  की ध्वनि होती हैं  &nbsp;<button onclick="playaudio(pl)" type="button" id="btl">आवाज़ सुने </button><button onclick="playaudio(xl)" type="button" id="btlx">उदाहरण सुने </button>
+         <br /><br /><br />M (  एम   ) &nbsp;  की ध्वनि होती हैं  &nbsp;<button onclick="playaudio(pm)" type="button" id="btm">आवाज़ सुने </button><button onclick="playaudio(xm)" type="button" id="btmx">उदाहरण सुने </button>
+         <br /><br /><br />N (  एन   ) &nbsp;  की ध्वनि होती हैं  &nbsp;<button onclick="playaudio(pn)" type="button" id="btn">आवाज़ सुने </button><button onclick="playaudio(xn)" type="button" id="btnx">उदाहरण सुने </button>
+         <br /><br /><br />O (  ओ   ) &nbsp;  की ध्वनि होती हैं  &nbsp;<button onclick="playaudio(po)" type="button" id="bto">आवाज़ सुने </button><button onclick="playaudio(xo)" type="button" id="btox">उदाहरण सुने </button>
+         <br /><br /><br />P (  पी   ) &nbsp;  की ध्वनि होती हैं  &nbsp;<button onclick="playaudio(pp)" type="button" id="btp">आवाज़ सुने </button><button onclick="playaudio(xp)" type="button" id="btpx">उदाहरण सुने </button>
+         <br /><br /><br />Q (  क्यू   ) &nbsp;  की ध्वनि होती हैं  &nbsp;<button onclick="playaudio(pq)" type="button" id="btq">आवाज़ सुने </button><button onclick="playaudio(xq)" type="button" id="btqx">उदाहरण सुने </button>
+         <br /><br /><br />R (  आर   ) &nbsp;  की ध्वनि होती हैं  &nbsp;<button onclick="playaudio(pr)" type="button" id="btr">आवाज़ सुने </button><button onclick="playaudio(xr)" type="button" id="btrx">उदाहरण सुने </button>
+         <br /><br /><br />S (  एस   ) &nbsp;  की ध्वनि होती हैं  &nbsp;<button onclick="playaudio(ps)" type="button" id="bts">आवाज़ सुने </button><button onclick="playaudio(xs)" type="button" id="btsx">उदाहरण सुने </button>
+         <br /><br /><br />T (  टी   ) &nbsp;  की ध्वनि होती हैं  &nbsp;<button onclick="playaudio(pt)" type="button" id="btt">आवाज़ सुने </button><button onclick="playaudio(xt)" type="button" id="bttx">उदाहरण सुने </button>
+         <br /><br /><br />U (  यू   ) &nbsp;  की ध्वनि होती हैं  &nbsp;<button onclick="playaudio(pu)" type="button" id="btu">आवाज़ सुने </button><button onclick="playaudio(xu)" type="button" id="btux">उदाहरण सुने </button>
+         <br /><br /><br />V (  वी   ) &nbsp;  की ध्वनि होती हैं  &nbsp;<button onclick="playaudio(pv)" type="button" id="btv">आवाज़ सुने </button><button onclick="playaudio(xv)" type="button" id="btvx">उदाहरण सुने </button>
+         <br /><br /><br />W (  डब्लू   ) &nbsp;  की ध्वनि होती हैं  &nbsp;<button onclick="playaudio(pw)" type="button" id="btw">आवाज़ सुने </button><button onclick="playaudio(xw)" type="button" id="btwx">उदाहरण सुने </button>
+         <br /><br /><br />X (  एक्स   ) &nbsp;  की ध्वनि होती हैं  &nbsp;<button onclick="playaudio(px)" type="button" id="btx">आवाज़ सुने </button><button onclick="playaudio(xx)" type="button" id="btxx">उदाहरण सुने </button>
+         <br /><br /><br />Y (  वाई   ) &nbsp;  की ध्वनि होती हैं  &nbsp;<button onclick="playaudio(py)" type="button" id="bty">आवाज़ सुने </button><button onclick="playaudio(xy)" type="button" id="btyx">उदाहरण सुने </button>
+         <br /><br /><br />Z (  ज़ैड  ) &nbsp;  की ध्वनि होती हैं  &nbsp;<button onclick="playaudio(pz)" type="button" id="btz">आवाज़ सुने </button><button onclick="playaudio(xz)" type="button" id="btzx">उदाहरण सुने </button>
+         <br /><br /><br /><br /><br />
+        <button id="topbtn" onclick="topFunction()"><img src="arrow-up-outline.svg" height="30" width="30" id="gotop"/></button>
+        <br /><br /><br /><br />
+    </p> 
+    <audio id="pa">
+    <source src="sounds/pa.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="pb">
+    <source src="sounds/pb.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="pc">
+    <source src="sounds/pc.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="pd">
+    <source src="sounds/pd.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="pe">
+    <source src="sounds/pe.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="pf">
+    <source src="sounds/pf.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="pg">
+    <source src="sounds/pg.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="ph">
+    <source src="sounds/ph.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="pi">
+    <source src="sounds/pi.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="pj">
+    <source src="sounds/pj.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="pk">
+    <source src="sounds/pk.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="pl">
+    <source src="sounds/pl.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="pm">
+    <source src="sounds/pm.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="pn">
+    <source src="sounds/pn.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="po">
+    <source src="sounds/po.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="pp">
+    <source src="sounds/pp.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="pq">
+    <source src="sounds/pq.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="pr">
+    <source src="sounds/pr.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="ps">
+    <source src="sounds/ps.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="pt">
+    <source src="sounds/pt.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="pu">
+    <source src="sounds/pu.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="pv">
+    <source src="sounds/pv.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="pw">
+    <source src="sounds/pw.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="px">
+    <source src="sounds/px.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="py">
+    <source src="sounds/py.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="pz">
+    <source src="sounds/pz.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="xa">
+    <source src="sounds/xa.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="xb">
+    <source src="sounds/xb.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="xc">
+    <source src="sounds/xc.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="xd">
+    <source src="sounds/xd.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="xe">
+    <source src="sounds/xe.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="xf">
+    <source src="sounds/xf.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="xg">
+    <source src="sounds/xg.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="xh">
+    <source src="sounds/xh.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="xi">
+    <source src="sounds/xi.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="xj">
+    <source src="sounds/xj.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="xk">
+    <source src="sounds/xk.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="xl">
+    <source src="sounds/xl.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="xm">
+    <source src="sounds/xm.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="xn">
+    <source src="sounds/xn.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="xo">
+    <source src="sounds/xo.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="xp">
+    <source src="sounds/xp.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="xq">
+    <source src="sounds/xq.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="xr">
+    <source src="sounds/xr.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="xs">
+    <source src="sounds/xs.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="xt">
+    <source src="sounds/xt.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="xu">
+    <source src="sounds/xu.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="xv">
+    <source src="sounds/xv.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="xw">
+    <source src="sounds/xw.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="xx">
+    <source src="sounds/xx.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="xy">
+    <source src="sounds/xy.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="xz">
+    <source src="sounds/xz.mp3" type="audio/mpeg">
+    </audio>
+	<script>var nbutton = document.getElementById("nextpagebutton");
+        var pbutton = document.getElementById("prevpagebutton");
+window.onscroll = function() {scrollfunction()};
+
+function scrollfunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      nbutton.style.display = "none";
+      pbutton.style.display = "none";
+  } else {
+      nbutton.style.display = "inline-block";
+      pbutton.style.display = "inline-block";
+  }
+}
+//        $("#nextpagebutton").button();
+//        $("#prevpagebutton").button();
+        function playaudio(y) {     
+          y.play(); 
+        } 
+        $("#bta").button();
+        $("#btax").button();
+        $("#btb").button();
+        $("#btbx").button();
+        $("#btc").button();
+        $("#btcx").button();
+        $("#btd").button();
+        $("#btdx").button();
+        $("#bte").button();
+        $("#btex").button();
+        $("#btf").button();
+        $("#btfx").button();
+        $("#btg").button();
+        $("#btgx").button();
+        $("#bth").button();
+        $("#bthx").button();
+        
+        $("#bti").button();
+        $("#btix").button();
+        
+        $("#btj").button();
+        $("#btjx").button();
+        $("#btk").button();
+        $("#btkx").button();
+        $("#btl").button();
+        $("#btlx").button();
+        $("#btm").button();
+        $("#btmx").button();
+        
+        $("#btn").button();
+        $("#btnx").button();
+        $("#bto").button();
+        $("#btox").button();
+        $("#btp").button();
+        $("#btpx").button();
+        $("#btq").button();
+        $("#btqx").button();
+        $("#btr").button();
+        $("#btrx").button();
+        $("#bts").button();
+        $("#btsx").button();
+        $("#btt").button();
+        $("#bttx").button();
+        $("#btu").button();
+        $("#btux").button();
+        $("#btv").button();
+        $("#btvx").button();
+        $("#btw").button();
+        $("#btwx").button();
+        $("#btx").button();
+        $("#btxx").button();
+        $("#bty").button();
+        $("#btyx").button();
+        $("#btz").button();
+        $("#btzx").button();
+    function topFunction() {   document.body.scrollTop = 0;   document.documentElement.scrollTop = 0; }     </script>
+</body>
+
+</html>

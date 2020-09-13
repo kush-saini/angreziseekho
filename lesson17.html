@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html translate="no" lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>चिड़ियाओं के नाम Birds of India</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styling.css">
+    <link rel="stylesheet" type="text/css" href="grid.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/flick/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <style>
+/*
+        #example
+                {
+                    position: relative;
+                    top:40px;
+                }
+*/
+    </style>
+</head>
+
+<body >     <!--    <a href="index.html"><img src="cooltext359523612624032.png" width="500" class="responsive"/></a>-->     
+    <div class="topnav" id="myTopnav">   <a href="index.html" >AngreziSeekho</a>   <a href="englishbasics.html">अंग्रेज़ी की नींव</a>   <a href="namesofthings.html">चीज़ो के नाम</a>   <a href="conversation.html">अंग्रेज़ी में बातचीत</a>            </div>
+        <p class="paath"><br />चिड़ियाओं के नाम <br /><br />Names of Birds नेम्स ऑफ बर्ड्स<br /><br /></p>
+    <a href="lesson18.html"><button id="nextpagebutton" title="अगले पेज पर जाने के लिए">अगला पेज 
+    </button></a>
+    <a href="lesson16.html"><button id="prevpagebutton" title="पिछले पेज पर जाने के लिए">पिछला पेज 
+    </button></a>    
+    <p align="center" class="lessontext">
+      
+      Owl ( आउल )&nbsp;&nbsp; - &nbsp;&nbsp;उल्लू <br /><br /><img src="images/owl.png" height="170px" width="170px" id="example"/><br /><br /><br />
+      Bat ( बैट )&nbsp;&nbsp; - &nbsp;&nbsp;चमगादड़ <br /><br /><img src="images/batt.png" height="170px" width="170px" id="example"/><br /><br /><br />  
+      Duck ( डक )&nbsp;&nbsp; - &nbsp;&nbsp;बतक<br /><br /><img src="images/duck.png" height="170px" width="170px" id="example"/><br /><br /><br />
+      Eagle ( ईगल )&nbsp;&nbsp; - &nbsp;&nbsp;चील<br /><br /><img src="images/eagle.png" height="170px" width="170px" id="example"/><br /><br /><br />
+      Parrot ( पैरट )&nbsp;&nbsp; - &nbsp;&nbsp;तोता<br /><br /><img src="images/parrot.png" height="170px" width="170px" id="example"/><br /><br /><br />
+      Peacock ( पीकॉक )&nbsp;&nbsp; - &nbsp;&nbsp;मोर<br /><br /><img src="images/peacock.png" height="170px" width="170px" id="example"/><br /><br /><br />
+      Woodpecker ( वुडपैकर )&nbsp;&nbsp; - &nbsp;&nbsp;कठफोड़वा<br /><br /><img src="images/woodpecker.png" height="170px" width="170px" id="example"/><br /><br />
+        Crow ( क्रो )&nbsp;&nbsp; - &nbsp;&nbsp;कौआ<br /><br /><img src="images/crow.png" height="170px" width="170px" id="example"/><br /><br /><br />
+        <br />
+        Sparrow ( स्पैरो )&nbsp;&nbsp; - &nbsp;&nbsp;गौरैया <br /><br /><img src="images/sparrow.png" height="170px" width="170px" id="example"/><br /><br /><br />
+        Pigeon ( पिजन )&nbsp;&nbsp; - &nbsp;&nbsp;कबूतर<br /><br /><img src="images/pigeon.png" height="170px" width="170px" id="example"/><br /><br /><br /><br /><br />
+        <button id="topbtn" onclick="topFunction()"><img src="arrow-up-outline.svg" height="30" width="30" id="gotop"/></button>
+        <br /><br /><br /><br />
+    </p> 
+	<script>
+        var nbutton = document.getElementById("nextpagebutton");
+        var pbutton = document.getElementById("prevpagebutton");
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      nbutton.style.display = "none";
+      pbutton.style.display = "none";
+  } else {
+      nbutton.style.display = "inline-block";
+      pbutton.style.display = "inline-block";
+  }
+}
+    function topFunction() {   document.body.scrollTop = 0;   document.documentElement.scrollTop = 0; }     </script>
+</body>
+
+</html>

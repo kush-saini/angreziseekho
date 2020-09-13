@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html translate="no" lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>आने वाला समय Past</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styling.css">
+    <link rel="stylesheet" type="text/css" href="grid.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/flick/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <style>
+/*
+        #example
+                {
+                    position: relative;
+                    top:40px;
+                }
+*/
+    </style>
+</head>
+
+<body >     <!--    <a href="index.html"><img src="cooltext359523612624032.png" width="500" class="responsive"/></a>-->     
+    <div class="topnav" id="myTopnav">   <a href="index.html" >AngreziSeekho</a>   <a href="englishbasics.html">अंग्रेज़ी की नींव</a>   <a href="namesofthings.html">चीज़ो के नाम</a>   <a href="conversation.html">अंग्रेज़ी में बातचीत</a>            </div>
+        <p class="paath"><br />आने वाला समय<br /><br />Future फ्यूचर<br /><br /></p>
+    <a href="lesson54.html"><button id="nextpagebutton" title="अगले पेज पर जाने के लिए">अगला पेज 
+    </button></a>
+    <a href="lesson52.html"><button id="prevpagebutton" title="पिछले पेज पर जाने के लिए">पिछला पेज 
+    </button></a>    
+    <p align="center" class="lessontext">
+        आने वाला कल &nbsp;&nbsp; - &nbsp;&nbsp;Tomorrow( टुमौरो )<br /><br /><br />
+        दस साल बाद &nbsp;&nbsp; - &nbsp;&nbsp;After ten years( आफ्टर टैन इयर्ज़ )<br /><br /><br />
+        भविष्य में &nbsp;&nbsp; - &nbsp;&nbsp;In the future( इन दा फ्यूचर )<br /><br /><br />
+        बहुत समय बाद &nbsp;&nbsp; - &nbsp;&nbsp;After a lot of time( आफ्टर अ लॉट ऑफ टाइम )<br /><br /><br />
+        कुछ देर बाद &nbsp;&nbsp; - &nbsp;&nbsp;After sometime( आफ्टर समटाइम )<br /><br /><br />
+        आने वाला दिन &nbsp;&nbsp; - &nbsp;&nbsp;Upcoming day( अपकमिंग डे )<br /><br /><br />
+        कुछ मिनट बाद &nbsp;&nbsp; - &nbsp;&nbsp;After few minutes( आफ्टर फ्यू मिनिट्स )<br /><br /><br />
+        कुछ घंटे बाद &nbsp;&nbsp; - &nbsp;&nbsp;After few hours( आफ्टर फ्यू  आर्ज़ )<br /><br /><br />
+        कुछ दिन बाद &nbsp;&nbsp; - &nbsp;&nbsp;After few days( आफ्टर फ्यू डेज़ )<br /><br /><br />
+        कुछ साल बाद &nbsp;&nbsp; - &nbsp;&nbsp;After few years( आफ्टर फ्यू इयर्ज़ )<br /><br /><br />
+        कुछ पल बाद &nbsp;&nbsp; - &nbsp;&nbsp;After few moments( आफ्टर फ्यू मोमैन्ट्स )<br /><br /><br />
+        आने वाला महीना &nbsp;&nbsp; - &nbsp;&nbsp;coming month( कमिंग मंथ )<br /><br /><br />
+        आने वाला साल &nbsp;&nbsp; - &nbsp;&nbsp;coming year( कमिंग ईयर )<br /><br /><br />
+        आने वाला दशक &nbsp;&nbsp; - &nbsp;&nbsp;coming decade( कमिंग डैकेड )<br /><br /><br />
+        कुछ दशक बाद &nbsp;&nbsp; - &nbsp;&nbsp;After few decades( आफ्टर फ्यू डैकेड्ज़ )<br /><br /><br />
+        एक मिनट बाद &nbsp;&nbsp; - &nbsp;&nbsp;After a minute( आफ्टर अ मिनिट )<br /><br /><br />
+        एक घंटे बाद &nbsp;&nbsp; - &nbsp;&nbsp;After an hour( आफ्टर ऐन आर )<br /><br /><br />
+        के बाद &nbsp;&nbsp; - &nbsp;&nbsp;After( आफ्टर )<br /><br /><br />
+        सुबह के बाद &nbsp;&nbsp; - &nbsp;&nbsp;After morning( आफ्टर मॉर्निंग )<br /><br /><br />
+        <br /><br />
+        <button id="topbtn" onclick="topFunction()"><img src="arrow-up-outline.svg" height="30" width="30" id="gotop"/></button>
+        <br /><br />
+        
+        <br /><br />
+    </p> 
+    
+	<script>
+        var nbutton = document.getElementById("nextpagebutton");
+        var pbutton = document.getElementById("prevpagebutton");
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      nbutton.style.display = "none";
+      pbutton.style.display = "none";
+  } else {
+      nbutton.style.display = "inline-block";
+      pbutton.style.display = "inline-block";
+  }
+}
+        function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+    </script>
+</body>
+
+</html>

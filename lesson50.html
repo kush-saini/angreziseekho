@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html translate="no" lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>भोजन Food</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styling.css">
+    <link rel="stylesheet" type="text/css" href="grid.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/flick/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <style>
+/*
+        #example
+                {
+                    position: relative;
+                    top:40px;
+                }
+*/
+    </style>
+</head>
+
+<body >     <!--    <a href="index.html"><img src="cooltext359523612624032.png" width="500" class="responsive"/></a>-->     
+    <div class="topnav" id="myTopnav">   <a href="index.html" >AngreziSeekho</a>   <a href="englishbasics.html">अंग्रेज़ी की नींव</a>   <a href="namesofthings.html">चीज़ो के नाम</a>   <a href="conversation.html">अंग्रेज़ी में बातचीत</a>            </div>
+        <p class="paath"><br />भोजन<br /><br />Food फ़ूड <br /><br /></p>
+    <a href="lesson51.html"><button id="nextpagebutton" title="अगले पेज पर जाने के लिए">अगला पेज 
+    </button></a>
+    <a href="lesson49.html"><button id="prevpagebutton" title="पिछले पेज पर जाने के लिए">पिछला पेज 
+    </button></a>    
+    <p align="center" class="lessontext">
+        खाने मे क्या हैं &nbsp;&nbsp; - &nbsp;&nbsp;Whats for food( वॉट्स फॉर फ़ूड )<br /><br /><br />
+        खाना स्वादिष्ट हैं &nbsp;&nbsp; - &nbsp;&nbsp;Food is tasty( फ़ूड इज़ टेस्टी )<br /><br /><br />
+        खाना गर्म हैं &nbsp;&nbsp; - &nbsp;&nbsp;Food is hot( फ़ूड इज़ हॉट )<br /><br /><br />
+        खाना ठंडा हैं &nbsp;&nbsp; - &nbsp;&nbsp;Food is cold( फ़ूड इज़ कोल्ड )<br /><br /><br />
+        खाना तैयार हैं &nbsp;&nbsp; - &nbsp;&nbsp;Food is ready( फ़ूड इज़ रैडी )<br /><br /><br />
+        भूख लग रही हैं &nbsp;&nbsp; - &nbsp;&nbsp;I am hungry( आई ऐम हंगरी )<br /><br /><br />
+        भूख नहीं लग रही हैं &nbsp;&nbsp; - &nbsp;&nbsp;I am not hungry( आई ऐम नॉट हंगरी )<br /><br /><br />
+        मेरा पेट भरा हुआ हैं &nbsp;&nbsp; - &nbsp;&nbsp;I am full( आई ऐम फुल )<br /><br /><br />
+        थाली &nbsp;&nbsp; - &nbsp;&nbsp;Plate( प्लेट )<br /><br /><br />
+        चम्मच &nbsp;&nbsp; - &nbsp;&nbsp;Spoon( स्पून )<br /><br /><br />
+        तवा &nbsp;&nbsp; - &nbsp;&nbsp;Pen( पैन )<br /><br /><br />
+        काँच का सामान &nbsp;&nbsp; - &nbsp;&nbsp;Cutlery( कटलरी )<br /><br /><br />
+        चिमटा &nbsp;&nbsp; - &nbsp;&nbsp;Tong( टौंग )<br /><br /><br />
+        बेलन &nbsp;&nbsp; - &nbsp;&nbsp;Rolling pin( रोलिंग पिन )<br /><br /><br />
+        चूल्हा &nbsp;&nbsp; - &nbsp;&nbsp;Stove( स्टोव )<br /><br /><br />
+        बर्तन &nbsp;&nbsp; - &nbsp;&nbsp;Utensil( युटैन्सिल )<br /><br /><br />
+        छन्नी &nbsp;&nbsp; - &nbsp;&nbsp;Sieve( सीव )<br /><br /><br />
+        चकला &nbsp;&nbsp; - &nbsp;&nbsp;Board( बोर्ड )<br /><br /><br />
+        भगौना &nbsp;&nbsp; - &nbsp;&nbsp;Pot( पॉट )<br /><br /><br />
+        चाकू &nbsp;&nbsp; - &nbsp;&nbsp;Knife( नाइफ )<br /><br /><br />
+        कटोरी &nbsp;&nbsp; - &nbsp;&nbsp;Bowl( बोल )<br /><br /><br />
+        सुराही &nbsp;&nbsp; - &nbsp;&nbsp;Jug( जग )<br /><br /><br />
+        कद्दू कस &nbsp;&nbsp; - &nbsp;&nbsp;Grater( ग्रेटर )<br /><br /><br />
+        प्याला &nbsp;&nbsp; - &nbsp;&nbsp;Cup( कप )<br /><br /><br />
+        <br /><br />
+        <button id="topbtn" onclick="topFunction()"><img src="arrow-up-outline.svg" height="30" width="30" id="gotop"/></button>
+        <br /><br />
+        
+        <br /><br />
+    </p> 
+    
+	<script>
+        var nbutton = document.getElementById("nextpagebutton");
+        var pbutton = document.getElementById("prevpagebutton");
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      nbutton.style.display = "none";
+      pbutton.style.display = "none";
+  } else {
+      nbutton.style.display = "inline-block";
+      pbutton.style.display = "inline-block";
+  }
+}
+        function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+    </script>
+</body>
+
+</html>

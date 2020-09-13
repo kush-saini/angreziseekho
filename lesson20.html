@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html translate="no" lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>भावनाए Feelings</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styling.css">
+    <link rel="stylesheet" type="text/css" href="grid.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/flick/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <style>
+/*
+        #example
+                {
+                    position: relative;
+                    top:40px;
+                }
+*/
+    </style>
+</head>
+
+<body >     <!--    <a href="index.html"><img src="cooltext359523612624032.png" width="500" class="responsive"/></a>-->    
+    <div class="topnav" id="myTopnav">   <a href="index.html" >AngreziSeekho</a>   <a href="englishbasics.html">अंग्रेज़ी की नींव</a>   <a href="namesofthings.html">चीज़ो के नाम</a>   <a href="conversation.html">अंग्रेज़ी में बातचीत</a>            </div>
+        <p class="paath"><br />भावनाए<br /><br />Feelings  फीलिंग्स<br /><br /></p>
+    <a href="lesson21.html"><button id="nextpagebutton" title="अगले पेज पर जाने के लिए">अगला पेज 
+    </button></a>
+    <a href="lesson19.html"><button id="prevpagebutton" title="पिछले पेज पर जाने के लिए">पिछला पेज 
+    </button></a>    
+    <p align="center" class="lessontext">
+        गुस्सा &nbsp;&nbsp; - &nbsp;&nbsp;Angry ( ऐंग्री )<br /><br /><img src="images/angry.jpg" height="170px" width="170px" id="example"/><br /><br />
+        उलझन में &nbsp;&nbsp; - &nbsp;&nbsp;Confused ( कन्फ्यूज़्ड )<br /><br /><img src="images/confused.jpg" height="170px" width="170px" id="example"/><br /><br />
+        
+उत्साहित &nbsp;&nbsp; - &nbsp;&nbsp;Excited ( एक्साइटेड  )<br /><br /><img src="images/excited.jpg" height="170px" width="170px" id="example"/><br /><br />
+        दोषी &nbsp;&nbsp; - &nbsp;&nbsp;Guilty ( गिलटी  )<br /><br /><img src="images/guilty.jpg" height="170px" width="170px" id="example"/><br /><br />
+        प्रसन्न &nbsp;&nbsp; - &nbsp;&nbsp;Happy ( हैप्पी  )<br /><br /><img src="images/happy.jpg" height="170px" width="170px" id="example"/><br /><br />
+        भूखे पेट
+ &nbsp;&nbsp; - &nbsp;&nbsp;Hungry ( हंगरी  )<br /><br /><img src="images/hungry.png" height="170px" width="170px" id="example"/><br /><br />
+        प्यार में
+ &nbsp;&nbsp; - &nbsp;&nbsp;In love ( इन  लव )<br /><br /><img src="images/inlove.jpg" height="170px" width="170px" id="example"/><br /><br />
+        ईर्ष्या &nbsp;&nbsp; - &nbsp;&nbsp;Jealous ( जैलस )<br /><br /><img src="images/jealous.jpeg" height="170px" width="170px" id="example"/><br /><br />
+        अकेला &nbsp;&nbsp; - &nbsp;&nbsp;Lonely ( लोनली  )<br /><br /><img src="images/lonely.jpg" height="170px" width="170px" id="example"/><br /><br />
+        बेचैन &nbsp;&nbsp; - &nbsp;&nbsp;Nervous ( नर्वस  )<br /><br /><img src="images/nervous.jpg" height="170px" width="170px" id="example"/><br /><br />
+        दुखी &nbsp;&nbsp; - &nbsp;&nbsp;Sad ( सैड )<br /><br /><img src="images/sad.jpg" height="170px" width="170px" id="example"/><br /><br />
+        डरा हुआ
+ &nbsp;&nbsp; - &nbsp;&nbsp;Scared / Frightened ( स्केयर्ड /  फ्राइटंड )<br /><br /><img src="images/scared.jpg" height="170px" width="170px" id="example"/><br /><br />
+        बीमार &nbsp;&nbsp; - &nbsp;&nbsp;Sick / ill ( सिक /  इल )<br /><br /><img src="images/sick.jpg" height="170px" width="170px" id="example"/><br /><br />
+        आश्चर्य &nbsp;&nbsp; - &nbsp;&nbsp;Surprised ( सरप्राइज़्ड  )<br /><br /><img src="images/surprised.jpg" height="170px" width="170px" id="example"/><br /><br />
+        प्यासा &nbsp;&nbsp; - &nbsp;&nbsp;Thirsty ( थरस्टी )<br /><br /><img src="images/thirsty.jpg" height="170px" width="170px" id="example"/><br /><br />
+        थका हुआ
+ &nbsp;&nbsp; - &nbsp;&nbsp;Tired ( टायर्ड )<br /><br /><img src="images/tired.jpg" height="170px" width="170px" id="example"/><br /><br />
+        परेशान &nbsp;&nbsp; - &nbsp;&nbsp;Upset ( अपसैट )<br /><br /><img src="images/upset.jpg" height="170px" width="170px" id="example"/><br /><br /><br /><br /><br />
+        <button id="topbtn" onclick="topFunction()"><img src="arrow-up-outline.svg" height="30" width="30" id="gotop"/></button>
+        <br /><br /><br /><br />
+    </p> 
+	<script>
+        var nbutton = document.getElementById("nextpagebutton");
+        var pbutton = document.getElementById("prevpagebutton");
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      nbutton.style.display = "none";
+      pbutton.style.display = "none";
+  } else {
+      nbutton.style.display = "inline-block";
+      pbutton.style.display = "inline-block";
+  }
+}
+    function topFunction() {   document.body.scrollTop = 0;   document.documentElement.scrollTop = 0; }     </script>
+</body>
+
+</html>

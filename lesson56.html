@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html translate="no" lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>यात्रा Journey</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styling.css">
+    <link rel="stylesheet" type="text/css" href="grid.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/flick/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <style>
+/*
+        #example
+                {
+                    position: relative;
+                    top:40px;
+                }
+*/
+    </style>
+</head>
+
+<body >     <!--    <a href="index.html"><img src="cooltext359523612624032.png" width="500" class="responsive"/></a>-->     
+    <div class="topnav" id="myTopnav">   <a href="index.html" >AngreziSeekho</a>   <a href="englishbasics.html">अंग्रेज़ी की नींव</a>   <a href="namesofthings.html">चीज़ो के नाम</a>   <a href="conversation.html">अंग्रेज़ी में बातचीत</a>            </div>
+        <p class="paath"><br />यात्रा<br /><br />Journey जर्नी <br /><br /></p>
+    <a href="lesson57.html"><button id="nextpagebutton" title="अगले पेज पर जाने के लिए" disabled="true">अगला पेज 
+    </button></a>
+    <a href="lesson55.html"><button id="prevpagebutton" title="पिछले पेज पर जाने के लिए">पिछला पेज 
+    </button></a>    
+    <p align="center" class="lessontext">
+        चलो जयपुर चलते हैं &nbsp;&nbsp; - &nbsp;&nbsp;Lets go to Jaipur( लैट्स गो टू जयपुर )<br /><br /><br />
+        चार टिकट बुक करवा दो &nbsp;&nbsp; - &nbsp;&nbsp;Book four tickets( बुक फोर टिकिट्स )<br /><br /><br />
+        मुझे खिड़की वाली सीट चाहिए &nbsp;&nbsp; - &nbsp;&nbsp;I want window seat( आई वॉन्ट विंडो सीट )<br /><br /><br />
+        यात्रा कितने घंटे की हैं &nbsp;&nbsp; - &nbsp;&nbsp;How long is the journey( हाओ लॉन्ग इज़ दा जर्नी )<br /><br /><br />
+        मज़ा आने वाला हैं &nbsp;&nbsp; - &nbsp;&nbsp;Its going to be fun( इट्स गोइंग टू बी फन )<br /><br /><br />
+        यहाँ मशहूर जगह कौनसी हैं &nbsp; - &nbsp;&nbsp;What are famous places here<br />( वॉट आर फेमस प्लेसिस हेयर )<br /><br /><br />
+        यहाँ मशहूर पकवान कौनसे हैं &nbsp; - &nbsp;&nbsp;What are famous dishes here<br />( वॉट आर फेमस डिशिस हेयर )<br /><br /><br />
+        पुष्कर क्यों मशहूर हैं &nbsp;&nbsp; - &nbsp;&nbsp;What is Pushkar famous for( वॉट इज़ पुष्कर फेमस फॉर )<br /><br /><br />
+        प्रस्थान का समय क्या हैं &nbsp;&nbsp; - &nbsp;&nbsp;When is the departure( वैन इज़ दा डिपार्चर )<br /><br /><br />
+        कितने बजे पहुँचेंगे &nbsp;&nbsp; - &nbsp;&nbsp;When is the arrival( वैन इज़ दा अराइवल )<br /><br /><br />
+        सब तैयार हैं क्या &nbsp;&nbsp; - &nbsp;&nbsp;Is everyone ready( इज़ ऐवरिवन रैडी )<br /><br /><br />
+        जल्दी करो &nbsp;&nbsp; - &nbsp;&nbsp;Hurry up( हरि अप )<br /><br /><br />
+        एक अख़बार खरीद लो &nbsp;&nbsp; - &nbsp;&nbsp;Buy a newspaper( बाए अ न्यूज़पेपर )<br /><br /><br />
+        एक पानी की बोतल ले लो &nbsp;&nbsp; - &nbsp;&nbsp;Take a water bottle( टेक अ वॉटर बॉटल )<br /><br /><br />
+        शुभ यात्रा &nbsp;&nbsp; - &nbsp;&nbsp;Happy journey( हैप्पी जर्नी )<br /><br /><br />
+        <br /><br />
+        <button id="topbtn" onclick="topFunction()"><img src="arrow-up-outline.svg" height="30" width="30" id="gotop"/></button>
+        <br /><br />
+        
+        <br /><br />
+    </p> 
+    
+	<script>
+        var nbutton = document.getElementById("nextpagebutton");
+        var pbutton = document.getElementById("prevpagebutton");
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      nbutton.style.display = "none";
+      pbutton.style.display = "none";
+  } else {
+      nbutton.style.display = "inline-block";
+      pbutton.style.display = "inline-block";
+  }
+}
+        function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+    </script>
+</body>
+
+</html>

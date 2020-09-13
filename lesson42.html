@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html translate="no" lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>क्रिकेट मैच Cricket Match</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styling.css">
+    <link rel="stylesheet" type="text/css" href="grid.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/flick/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <style>
+/*
+        #example
+                {
+                    position: relative;
+                    top:40px;
+                }
+*/
+    </style>
+</head>
+
+<body >     <!--    <a href="index.html"><img src="cooltext359523612624032.png" width="500" class="responsive"/></a>-->     
+    <div class="topnav" id="myTopnav">   <a href="index.html" >AngreziSeekho</a>   <a href="englishbasics.html">अंग्रेज़ी की नींव</a>   <a href="namesofthings.html">चीज़ो के नाम</a>   <a href="conversation.html">अंग्रेज़ी में बातचीत</a>            </div>
+        <p class="paath"><br />क्रिकेट मैच<br /><br />Cricket Match<br /><br /></p>
+    <a href="lesson43.html"><button id="nextpagebutton" title="अगले पेज पर जाने के लिए">अगला पेज 
+    </button></a>
+    <a href="lesson41.html"><button id="prevpagebutton" title="पिछले पेज पर जाने के लिए">पिछला पेज 
+    </button></a>    
+    <p align="center" class="lessontext">
+        कौनसी टीम हैं &nbsp;&nbsp; - &nbsp;&nbsp;Which team is it( विच टीम इज़ इट )<br /><br /><br />
+        क्या स्कोर चल रहा हैं &nbsp;&nbsp; - &nbsp;&nbsp;What is the score( वॉट इस इज़ स्कोर )<br /><br /><br />
+        बल्लेबाज़ कौन हैं  &nbsp;&nbsp; - &nbsp;&nbsp;Who is batting( हु इज़ बैटिंग )<br /><br /><br />
+        गेंदबाज़ कौन हैं &nbsp;&nbsp; - &nbsp;&nbsp;Who is bowling( हु इज़ बौलिंग )<br /><br /><br />
+        वाह क्या गेंद फेंकी हैं &nbsp;&nbsp; - &nbsp;&nbsp;Good ball( गुड बॉल )<br /><br /><br />
+        वाह क्या मारा हैं &nbsp;&nbsp; - &nbsp;&nbsp;What a shot( वॉट अ शॉट )<br /><br /><br />
+        सचिन मेरा पसंदीदा हैं &nbsp;&nbsp; - &nbsp;&nbsp;Sachin is my favourite( सचिन इज़ माय फेवरेट )<br /><br /><br />
+        बल्लेबाज़ &nbsp;&nbsp; - &nbsp;&nbsp;Batsman( बैट्समैन )<br /><br /><br />
+        गेंदबाज़ &nbsp;&nbsp; - &nbsp;&nbsp;Bowler( बोलर )<br /><br /><br />
+        छक्के चौको की बरसात हो रही हैं &nbsp;&nbsp; - &nbsp;&nbsp;Its raining fours and sixes<br />( इट्स रेनिंग फ़ोर्ज़ ऐंड सिक्सिस )<br /><br /><br />
+        युवराज कमाल का बल्लेबाज़ हैं &nbsp;&nbsp; - &nbsp;&nbsp;Yuvraj is a great batsman<br />( युवराज इज़ अ ग्रेट बैट्समैन )<br /><br /><br />
+        ज़हीर अच्छा गेंदबाज़ हैं &nbsp;&nbsp; - &nbsp;&nbsp;Zaheer is a good bowler( ज़हीर इज़ अ गुड बोलर )<br /><br /><br />
+        बेकार फील्डिंग &nbsp;&nbsp; - &nbsp;&nbsp;Poor fielding( पुअर फील्डिंग )<br /><br /><br />
+        बढ़िया बल्लेबाज़ी &nbsp;&nbsp; - &nbsp;&nbsp;Good batting( गुड बैटिंग )<br /><br /><br />
+        बढ़िया गेंदबाज़ी &nbsp;&nbsp; - &nbsp;&nbsp;Good bowling( गुड बौलिंग )<br /><br /><br />
+        आसमानी छक्का &nbsp;&nbsp; - &nbsp;&nbsp;Huge six( ह्यूज सिक्स )<br /><br /><br />
+        बॉल गोली की रफ्तार से गयी &nbsp;&nbsp; - &nbsp;&nbsp;Ball went like a bullet( बॉल वैंट लाइक अ बुलेट )<br /><br /><br />
+        बल्ले की रफ्तार कम थी &nbsp;&nbsp; - &nbsp;&nbsp;Timing was poor( टाइमिंग वाज़ पुअर )<br /><br /><br />
+        चौका लगा &nbsp;&nbsp; - &nbsp;&nbsp;Its a four( इट्स अ फोर )<br /><br /><br />
+        छक्का लगा &nbsp;&nbsp; - &nbsp;&nbsp;Its a six( इट्स अ सिक्स )<br /><br /><br />
+        अंपायर ने आउट दिया हैं &nbsp;&nbsp; - &nbsp;&nbsp;Umpire has given out( अंपायर हैज़ गिवन आउट )<br /><br /><br />
+        <br /><br />
+        <button id="topbtn" onclick="topFunction()"><img src="arrow-up-outline.svg" height="30" width="30" id="gotop"/></button>
+        <br /><br />
+        
+        <br /><br />
+    </p> 
+	<script>
+        var nbutton = document.getElementById("nextpagebutton");
+        var pbutton = document.getElementById("prevpagebutton");
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      nbutton.style.display = "none";
+      pbutton.style.display = "none";
+  } else {
+      nbutton.style.display = "inline-block";
+      pbutton.style.display = "inline-block";
+  }
+}
+        function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+    </script>
+</body>
+
+</html>
