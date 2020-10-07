@@ -51,15 +51,7 @@
         var pbutton = document.getElementById("prevpagebutton");
 window.onscroll = function() {scrollFunction()};
 
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-      nbutton.style.display = "none";
-      pbutton.style.display = "none";
-  } else {
-      nbutton.style.display = "inline-block";
-      pbutton.style.display = "inline-block";
-  }
-}
+
         function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
