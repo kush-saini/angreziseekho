@@ -51,10 +51,10 @@ html {
   float: left;
   display: block;
 /*  color: rgba(103, 163, 161, 0.9);*/
-    color: #bdc3c7;
+    color: rgb(248, 164, 136);
 /*    color: wheat;*/
 /*    color: bisque;*/
-    color: azure;
+/*    color: azure;*/
   text-align: center;
   padding: 16px 16px;
   text-decoration: none;
@@ -73,7 +73,7 @@ html {
 }
 .topnav a:hover {
 /*  background-color: white;*/
-  color: rgb(248, 164, 136);
+  color: rgb(136, 248, 175);
 /*  text-shadow: 1.3px 1.3px rgba(139, 0, 0, 0.67);*/
   font-size:20px;  
 /*  border-radius: 50px;    */
@@ -157,7 +157,7 @@ a #menubutton {
 }
 a:first-child
 {
-    color: darkgrey;
+    color: rgba(127, 255, 212, 0.77);
 /*    color: #bdc3c7;*/
 }
 a:first-child:hover
