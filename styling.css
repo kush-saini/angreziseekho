@@ -197,7 +197,7 @@ a:first-child:hover
 }
 .container {
 	width:1140px;
-    height: abto;
+    height: auto;
     padding-left: 220px;
     font-family: sans-serif;
 }
